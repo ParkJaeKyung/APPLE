@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Apple_iPhone</title>
+    <meta name="viewport" content="width-device-width, initial-scale-1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main4.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <script src="https://kit.fontawesome.com/cf49693ca4.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <script src="js/aos.js"></script>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script>
+        $(function(){
+            $("#wrap>div.box").on("mousewheel", function(e){
+                e.preventDefault();
+                
+                var delta = 0;
+                delta = e.originalEvent.wheelDelta/120;
+                var moveTop = 0;
+                if(delta < 0){
+                    try {
+                        moveTop =
+                            $(this).next().offset().top;
+                    } catch(e) {return false};
+                } else {
+                    try {
+                        moveTop =
+                        $(this).prev().offset().top;
+                    } catch(e) {return false;}
+                }
+                $("html,body").stop().animate({scrollTop:moveTop+"px"}, 1000);
+            });
+        });
+    </script>
+</head>
+<body>
+    <div id="wrap">
+       <div id="nav" class="box">
+        <header>
+            <div id="header_top">
+                <div class="top_menu">
+                    <ul>
+                       <a href="index.html"><img src="main_img/logo.png" alt="탑 로고"></a>
+                        <li><a href="submain1.html">Mac</a></li>
+                        <li><a href="submain2.html">iPad</a></li>
+                        <li><a href="submain3.html">iPhone</a></li>
+                        <li><a href="submain4.html">Watch</a></li>
+                        <li><a href="#">Music</a></li>
+                        <li><a href="#">고객지원</a></li>
+                        <li><a href="#"><i class="fas fa-search"></i></a></li>
+                        <li><a href="#"><i class="fas fa-shopping-bag"></i></a></li>
+                    </ul>
+                 </div>
+            </div>
+            <div id="header_sub">
+                <div class="sub_menu">
+                    <a href="#"><img src="suv3_main_img/iphone%2012%20pro_logo.png" alt="iphone12 pro _logo"></a>
+                    <a href="#"><img src="suv3_main_img/iphone%2012_logo.png" alt="iohone12_logo"></a>
+                    <a href="#"><img src="suv3_main_img/iphone%20se_logo.png" alt="iphone se_logo"></a>
+                    <a href="#"><img src="suv3_main_img/ios%2014_logo.png" alt="ios14_logo"></a>
+                </div>
+            </div>
+        </header>
+        
+<!--            <div id="nav">-->
+                <div class="nav1">
+                   <p>iPhone 12 Pro</p>
+                   <p>도약의 시간.</p>
+                   <p>iPhone 12 Pro는 지금 구입할 수 있습니다. <br> iPhone 12 Pro Max는 사전 주문할 수 있습니다. <br> 가격은 ₩1,350,000부터(보상 판매*미적용).</p>
+                   <ul>
+                       <li><a href="#">쇼핑하기</a></li>
+                       <li><a href="#">더 알아보기 ></a></li>
+                   </ul>
+                </div>
+        </div>
+                <div class="nav2 box">
+                    <p>iPhone 12</p>
+                    <p>스피드 그 이상의 스피드.</p>
+                    <p>iPhone 12는 지금 구입할 수 있습니다. <br> iPhone 12 mini는 사전 주문할 수 있습니다. <br> 가격은 ₩950,000부터(보상 판매*미적용).</p>
+                    <ul>
+                        <li><a href="#">쇼핑하기</a></li>
+                        <li><a href="#">더 알아보기 ></a></li>
+                    </ul>
+                </div>
+                <div class="nav3 box">
+                    <p>iPhone <img src="suv3_main_img/se%20txt.png" alt="se"></p>
+                    <p>이상적. <br> 그러나 합리적.</p>
+                    <p>₩550,000부터</p>
+                    <p>보상판매 시 ₩390,000부터</p>
+                    <ul>
+                        <li><a href="#">쇼핑하기</a></li>
+                        <li><a href="#">더 알아보기 ></a></li>
+                    </ul>
+                </div>
+                <div class="nav4">
+                    
+                </div>
+                
+                <div class="nav5">
+                   <div data-aos="fade-down" data-aos-duration="2000">
+                       <div>
+                        <img src="suv3_main_img/ios%2014_2-1%20copy.png" alt="ios">
+                       </div>
+                    </div>
+                    <div class="txt">
+                    <div class="txt1" data-aos="fade-up" data-aos-duration="1000">
+                            <p><strong>앱 클립 </strong> 앱 다운로드 없이 해당 앱의 <br> 특정 기능만 활용할 수 있게 해주는 앱 <br> 클립. 주차비 결제, 테이크아웃 주문과 <br> 같은 일들을 빠르고 간편하게 할 수 <br> 있죠.</p>
+                    </div>
+                    <div class="txt2" data-aos="fade-up" data-aos-duration="2000">
+                        <p><strong>새롭게 디자인된 위젯 </strong> 이제 홈 화면에 <br> 각종 위젯을 배치해두고 그때그때 <br> 필요한 정보를 한눈에 확인할 수 있죠.</p>
+                    </div>
+                    <div class="txt3" data-aos="fade-up" data-aos-duration="3000">
+                        <p><strong>주요 대화 고정 </strong> '메시지'앱에서 당신이 <br> 가장 자주 대화하는 사람들을 앱 상단에 <br> 고정해둘 수 있습니다.</p>
+                    </div>
+                    <div class="txt4" data-aos="fade-up" data-aos-duration="3000">
+                        <a href="#">iOS 14에 대해 더 알아보기 ></a>
+                    </div>
+                    </div>
+                </div>
+<!--            </div>-->
+        
+        <div id="content">
+            <div class="content">
+                <h1>iPhone을 iPhone답게 만드는 모든 것.</h1>
+                <div class="container1">
+                    <a href="#">더 알아보기 ></a>
+                </div>
+                <div class="container2">
+                    <a href="#">더 알아보기 ></a>
+                </div>
+                <div class="container3">
+                    <a href="#">더 알아보기 ></a>
+                </div>
+                <h2>iPhone을 더욱더 잘 활용하는 법.</h2>
+                <div class="container4">
+                    <a href="#">더 알아보기 ></a>
+                </div>
+                <div class="container5">
+                    <a href="#">무료 체험하기↗</a>
+                    <a href="#">더 알아보기 ></a>
+                </div>
+                <div class="container6">
+                    <a href="#">무료 체험하기↗</a>
+                    <a href="#">더 알아보기 ></a>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <div class="fot_text">
+                <div class="fot1">
+                    <p><a href="index.html"><img src="suv_main_img/logo_fot.png" alt="logo_fot"></a>  >  iPhone</p>
+                </div>
+                <div class="fot2">
+                    <div>
+                        <h1>쇼핑 및 알아보기</h1>
+                        <ul>
+                            <li><a href="submain1.html">Mac</a></li>
+                            <li><a href="submain2.html">iPad</a></li>
+                            <li><a href="submain3.html">iPhone</a></li>
+                            <li><a href="submain4.html">Watch</a></li>
+                            <li>Music</li>
+                            <li>AirPods</li>
+                            <li>iPod touch</li>
+                            <li>액세서리</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h1>서비스</h1>
+                        <ul>
+                            <li>Apple Music</li>
+                            <li>Apple Arcade</li>
+                            <li>iCloud</li>
+                            <li>Apple Books</li>
+                            <li>App Store</li>
+                        </ul>
+                        <h1>계정</h1>
+                        <ul>
+                            <li>Apple ID 관리</li>
+                            <li>Apple Store 계정</li>
+                            <li>iCloud.com</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h1>Apple Store</h1>
+                        <ul>
+                            <li>매장찾기</li>
+                            <li>온라인에서 쇼핑하기</li>
+                            <li>Genius at Apple</li>
+                            <li>Today at Apple</li>
+                            <li>Apple 캠프</li>
+                            <li>Apple Store 앱</li>
+                            <li>리퍼 및 특가 제품</li>
+                            <li>금융 혜택</li>
+                            <li>Apple Trade In</li>
+                            <li>주문 상태</li>
+                            <li>쇼핑 도움말</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h1>비즈니스</h1>
+                        <ul>
+                            <li>Apple과 비즈니스</li>
+                            <li>비즈니스를 위한 제품 쇼핑하기</li>
+                        </ul>
+                        <h1>교육</h1>
+                        <ul>
+                            <li>Apple과 교육</li>
+                            <li>초중고용 제품 쇼핑하기</li>
+                            <li>대학 생활을 위한 제품 쇼핑하기</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h1>Apple의 가치관</h1>
+                        <ul>
+                            <li>손쉬운 사용</li>
+                            <li>환경</li>
+                            <li>개인정보 보호</li>
+                            <li>협력업체에 대한 책임</li>
+                        </ul>
+                        <h1>Apple 정보</h1>
+                        <ul>
+                            <li>Newsroom</li>
+                            <li>Apple 리더쉽</li>
+                            <li>채용 안내</li>
+                            <li>이벤트</li>
+                            <li>일자리 창출</li>
+                            <li>Apple 연락처</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="fot3">
+                    <p>
+                        다양한 쇼핑 방법: <span>Apple Store를 방문</span>하거나, <span>리셀러</span>를 찾아보거나, 080-330-8877번으로 전화하세요.
+                    </p>
+                    <p>
+                        Copyright &#169; 2020 Apple Inc. 모든 권리 보유. 개인정보 | 처리방침 엡 사이트 이용 약관 | 판매 및 환불 | 법적 고지 | 사이트 맵 <br> 사업자등록번호: 120-81-84429 | 통신판매업신고버호 : 제 2011-서울강남-00810호 | 대표이사 : PETER DENWOOD | 주소 : 서울 특별시 강남구 영동대로 517 | 대표전화 : 02-6712-6700 | 팩스 : 02-6928-0000
+                    </p>
+                </div>
+            </div>
+        </div>
+        <script>
+                AOS.init();
+        </script>
+    </div>
+</body>
+</html>

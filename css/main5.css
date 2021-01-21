@@ -1,0 +1,239 @@
+#wrap {
+    width: 100%; margin: 0 auto;
+}
+header {
+    width: 100%;
+}
+header #header_top {
+    background: #343333;
+    height: 55px;
+}
+#header_top .top_menu {
+    max-width: 1200px; margin: 0 auto; 
+}
+.top_menu img {
+    width: 30px; padding-top: 5px; float: left; 
+}
+/*
+.top_menu img:hover {
+    color: #ffffff; transition: 0.5s;
+}
+*/
+.top_menu ul {
+    float: right; line-height: 55px; width: 100%;
+}
+.top_menu li {
+    float: left; text-align: right; width: 12%;
+}
+.top_menu li a {
+    color: #bbbbbb; 
+}
+.top_menu li a:hover {
+    color: #ffffff; transition: all 0.5s;
+}
+header #header_sub{
+    background: #fbfbfb; height: 150px;
+}
+#header_sub .sub_menu {
+    max-width: 1200px; margin: 0 auto; 
+}
+.sub_menu img {
+    height: 130px; margin-left: 130px; margin-top: 10px;
+}
+.sub_menu img:hover {
+    opacity: 0.5;
+}
+nav {
+    width: 100%; height: 4600px;
+}
+#nav {
+    max-width: 1200px; height: 4600px; margin: 0 auto;
+}
+.nav1 {
+    position: relative; background: url(../suv4_main_img/watch%20se.png)center; width: 100%; height: 850px; margin-top: 100px;
+}
+.nav1 ul {
+    position: absolute; top: 58%; left: 3%;
+}
+.nav1 li {
+    float: left; margin-right: 30px;
+}
+.nav1 li:nth-child(1) {
+    width: 100px; height: 40px; border-radius: 35px; line-height: 40px; text-align: center; background: #0084ff; margin-bottom: 20px;
+}
+.nav1 li:nth-child(1):hover {
+    background: #298cea;
+}
+.nav1 li:nth-child(1) a {
+    color: #ffffff; 
+}
+.nav1 li:nth-child(2) {
+    margin-top: 8px; 
+}
+.nav1 li:nth-child(2) a {
+    color: #0084ff; 
+}
+.nav1 li:nth-child(2) a:hover {
+    font-weight: bold; border-bottom: 1px solid #0084ff;
+}
+.nav2 {
+    position: relative; background: url(../suv4_main_img/watch%206.png)center; width: 100%; height: 850px; margin-top: 100px;
+}
+.nav2 ul {
+    position: absolute; top: 65%; left: 75%;
+}
+.nav2 li {
+    float: left; margin-right: 30px;
+}
+.nav2 li:nth-child(1) {
+    width: 100px; height: 40px; border-radius: 35px; line-height: 40px; text-align: center; background: #0084ff; margin-bottom: 20px;
+}
+.nav2 li:nth-child(1):hover {
+    background: #298cea;
+}
+.nav2 li:nth-child(1) a {
+    color: #ffffff; 
+}
+.nav2 li:nth-child(2) {
+    margin-top: 8px; 
+}
+.nav2 li:nth-child(2) a {
+    color: #0084ff; 
+}
+.nav2 li:nth-child(2) a:hover {
+    font-weight: bold; border-bottom: 1px solid #0084ff;
+}
+.nav3 {
+    position: relative; background: url(../suv4_main_img/watch%20studio.png)center; width: 100%; height: 900px; margin-top: 100px; 
+}
+.nav3 ul {
+    position: absolute; top: 25%; left: 41%;
+}
+.nav3 li {
+    width: 220px; height: 50px; border-radius: 35px; border: 2px solid #0084ff; line-height: 50px; background: #ffffff; text-align: center;
+}
+.nav3 li:hover {
+    border: 3.5px solid #0084ff;
+}
+.nav3 li a {
+    font-weight: bold; 
+}
+.nav3 li a:hover {
+    color: #0084ff;
+}
+.nav4 {
+    position: relative; background: url(../suv4_main_img/watch%20night.png)center; height: 700px; width: 100%; margin-top: 100px;
+}
+.nav4 ul {
+    position: absolute; top: 85%; left: 46%;
+}
+.nav4 li a {
+    color: #0084ff; 
+}
+.nav4 li a:hover {
+    font-weight: bold; border-bottom: 1px solid #0084ff;
+}
+.nav5 {
+    position: relative; background: url(../suv4_main_img/watch%20work.png)center; width: 100%; height: 700px; margin-top: 100px;
+}
+.nav5 ul {
+    position: absolute; top: 65%; left: 12%;
+}
+.nav5 li a {
+    color: #0084ff; 
+}
+.nav5 li a:hover {
+    font-weight: bold; border-bottom: 1px solid #0084ff; 
+}
+#content {
+    width: 100%; height: 2200px; background: #ffffff;
+}
+.content {
+    max-width: 1200px; margin: 0 auto; 
+}
+.content h1 {
+    text-align: center; font-size: 50px; margin-bottom: 100px;
+}
+.container1 {
+    position: relative; background: url(../suv4_main_img/watch%20music.png); width: 580px; height: 600px; margin-right: 40px; margin-bottom: 100px; float: left; 
+}
+.container1 a:nth-child(1) {
+    position: absolute; color: #0084ff; top: 30%; left: 30%; 
+}
+.container1 a:nth-child(2) {
+    position: absolute; color: #0084ff; top: 30%; left: 55%;
+}
+.container1 a:hover {
+    font-weight: bold; border-bottom: 1px solid #0084ff;
+}
+.container2 {
+    position: relative; background: url(../suv4_main_img/watch%20ring.png); width: 580px; height: 600px; float: left; margin-bottom: 100px; 
+}
+.container2 a {
+    position: absolute; color: #0084ff; top: 30%; left: 20%;
+}
+.container2 a:hover {
+    font-weight: bold; border-bottom: 1px solid #0084ff;
+}
+.content h2 {
+    text-align: center; font-size: 50px; margin-bottom: 100px; 
+}
+.container3 {
+    position: relative; background: url(../suv4_main_img/ios.png); width: 1200px; height: 720px; margin-bottom: 100px;
+}
+#footer {
+    background: #ebebeb; width: 100%; margin: 0 auto; float: left; 
+}
+.fot_text {
+     max-width: 1200px; _margin-left: 30%; margin: 0 auto;
+}
+.fot1 img {
+    width: 20px; margin-right: 10px; margin-top: 5px;
+}
+.fot1 a:hover {
+    color: #000000;
+}
+.fot1 p {
+    color: #424141; font-size: 15px; line-height: 35px; margin-top: 30px;
+}
+.fot2 div {
+    float: left; padding: 20px 100px 50px 0;
+}
+.fot2 h1 {
+    color: #000000; font-size: 14px; margin-bottom: 10px; margin-top: 30px;
+}
+.fot2 li {
+    color: #535252; font-size: 12px; line-height: 35px;
+}
+.fot2 li a {
+    color: #535252;
+}
+.fot2 li a:hover {
+    border-bottom: 1px solid #535252;
+}
+/*
+.fot2 li:hover {
+    border-bottom: 1px solid #d2d1d2;
+}
+*/
+.fot3 {
+    clear: both; 
+}
+.fot3 p {
+    color: #626060; font-size: 11px; line-height: 35px;
+}
+.fot3 p:nth-child(2) {
+    margin-bottom: 30px;
+}
+.fot3 span {
+    color: #0084ff;
+}
+.fot3 span:hover {
+    border-bottom: 1px solid #0084ff;
+}
+.fot1 {
+    border-bottom: 0.05px solid #d2d1d2
+}
+.fot3 p:nth-child(1) {
+    border-bottom: 0.05px solid #d2d1d2;
+}

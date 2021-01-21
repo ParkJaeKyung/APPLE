@@ -1,0 +1,318 @@
+@charset "utf-8";
+#wrap {
+    width: 100%; margin: 0 auto;
+}
+header {
+    width: 100%;
+}
+header #header_top {
+    background: #343333;
+    height: 55px;
+}
+#header_top .top_menu {
+    max-width: 1200px; margin: 0 auto; 
+}
+.top_menu img {
+    width: 30px; padding-top: 5px; float: left; 
+}
+/*
+.top_menu img:hover {
+    color: #ffffff; transition: 0.5s;
+}
+*/
+.top_menu ul {
+    float: right; line-height: 55px; width: 100%;
+}
+.top_menu li {
+    float: left; text-align: right; width: 12%;
+}
+.top_menu li a {
+    color: #bbbbbb; 
+}
+.top_menu li a:hover {
+    color: #ffffff; transition: all 0.5s;
+}
+header #header_sub{
+    background: #141414; height: 150px;
+}
+#header_sub .sub_menu {
+    max-width: 1200px; margin: 0 auto; 
+}
+.sub_menu img {
+    height: 130px; margin-left: 170px; margin-top: 10px;
+}
+.sub_menu img:hover {
+    opacity: 0.5;
+}
+/*
+nav {
+    width: 100%; height: 5300px;
+}
+*/
+#nav {
+    _max-width: 1200px; width 100%; _height: 5300px; margin: 0 auto;
+}
+.nav1 {
+    position: relative; 
+    background: url(../img/iphone%2012%20pro_gold.png)center; width: 100%; height: 890px; padding-top: 30px;
+}
+.nav1 p {
+    text-align: center; color: #fff; 
+}
+.nav1 p:nth-child(1) {
+    font-size: 28px; font-weight: 600
+}
+.nav1 p:nth-child(2) {
+    font-size: 45px; margin-bottom: 25px; font-weight: bold; 
+}
+.nav1 p:nth-child(3) {
+    font-size: 20px;
+}
+.nav1 ul {
+    position: absolute; color: #ffffff; top: 30%; left: 48%;
+}
+.nav1 li:nth-child(1) {
+    width: 100px; height: 40px; border-radius: 35px; line-height: 40px; text-align: center; background: #0084ff; margin-bottom: 20px;
+}
+.nav1 li:nth-child(1):hover {
+    background: #298cea;
+}
+.nav1 li:nth-child(1) a {
+    color: #ffffff; font-size: 17px;
+}
+.nav1 li:nth-child(2) a {
+    color: #0084ff; font-size: 18px; 
+}
+.nav1 li:nth-child(2) a:hover {
+    font-weight: bold; border-bottom: 1px solid #0084ff;
+}
+.nav2 {
+    background: url(../img/iphone%2012.png)bottom center; width: 100%; height: 1020px; padding-top: 30px;
+}
+.nav2 p {
+    text-align: center; color: #000;
+}
+.nav2 p:nth-child(1) {
+    font-size: 28px; font-weight: 600;
+}
+.nav2 p:nth-child(2) {
+    font-size: 45px; font-weight: bold; 
+}
+.nav2 p:nth-child(3) {
+    font-size: 20px;
+}
+.nav2 ul {
+    position: absolute; color: #000000; top: 138%; left: 48%;
+}
+.nav2 li:nth-child(1) {
+    width: 100px; height: 40px; border-radius: 35px; line-height: 40px; text-align: center; background: #0084ff; margin-bottom: 20px;
+}
+.nav2 li:nth-child(1):hover {
+    background: #198cea;
+}
+.nav2 li:nth-child(1) a {
+    color: #ffffff; font-size: 17px; 
+}
+.nav2 li:nth-child(2) a {
+    color: #0084ff; font-size: 18px;
+}
+.nav2 li:nth-child(2) a:hover {
+    font-weight: bold; border-bottom: 1px solid #0084ff;
+}
+.nav3 {
+    background: url(../suv3_main_img/iphone%20se2.png)center; width: 100%; height: 1020px; padding-top: 150px;
+}
+.nav3 p {
+    color: #fff; font-size: 40px; text-align: center;
+}
+.nav3 p:nth-child(1) {
+    font-size: 40px; _font-weight: bold; 
+}
+.nav3 p:nth-child(2) {
+    font-size: 70px; font-weight: bold; 
+}
+.nav3 p:nth-child(3) {
+    font-size: 30px;
+}
+.nav3 p:nth-child(4) {
+    font-size: 26px; color: #86868a;
+}
+.nav3 ul {
+    position: absolute; color: #ffffff; top: 268%; left: 48%; 
+}
+.nav3 li:nth-child(1) {
+    width: 100px; height: 40px; border-radius: 35px; line-height: 40px; text-align: center; background: #0084ff; margin-bottom: 20px; 
+}
+.nav3 li:nth-child(1):hover {
+    background: #298cea;
+}
+.nav3 li:nth-child(1) a {
+    color: #ffffff; font-size: 17px; 
+}
+.nav3 li:nth-child(2) a {
+    color: #0084ff; font-size: 18px; 
+}
+.nav3 li:nth-child(2) a:hover {
+    font-weight: bold; border-bottom: 1px solid #0084ff;
+}
+.nav4 {
+    background: url(../suv3_main_img/ios%2014_background2.png)center; _background-size: cover; width: 100%; height: 1080px;
+}
+.nav5 {
+    _background: url(../suv3_main_img/ios%2014_2-1.png)top center; _background-size: cover; width: 100%; height: 1200px; background: #000000; 
+}
+.nav5 div {
+    max-width: 1920px; margin: 0 auto;
+}
+.nav5 div img {
+    position: absolute; _left: 13%; margin-top: 4%;
+}
+.nav5 p > strong {
+    color: #ffffff;
+}
+.nav5 .txt {
+    max-width: 1250px; margin: 0 auto;
+}
+.nav5 .txt1 {
+    color: #a2a2a7; float: left; position: absolute; top: 520%; _left: 26.5%; line-height: 25px;
+}
+.nav5 .txt2 {
+    color: #a2a2a7; float: left; position: absolute; top: 520%; left: 45.5%; line-height: 25px;
+}
+.nav5 .txt3 {
+    color: #a2a2a7; float: left; position: absolute; top: 520%; left: 65%; line-height: 25px;
+}
+.nav5 .txt4 a {
+    color: #0084ff; position: absolute; top: 1000px; left: 45%; font-size: 18px;
+}
+.nav5 a:hover {
+    font-weight: bold; border-bottom: 1px solid #0084ff;
+}
+#content {
+    width: 100%; height: 2900px; background: #ebebeb; margin-top: 200px;
+}
+.content {
+    max-width: 1200px; margin: 0 auto;
+}
+.content h1 {
+    text-align: center; font-size: 50px; padding-top: 50px; padding-bottom: 50px;
+}
+.container1 {
+    background: url(../suv3_main_img/ios%2014.png); position: relative; height: 500px; margin-bottom: 50px;
+}
+.container1 a {
+    position: absolute; color: #0084ff; top: 70%; left: 18%; font-size: 16px;
+}
+.container1 a:hover {
+    font-weight: bold; border-bottom: 1px solid #0084ff;
+}
+.container2 {
+    background: url(../suv3_main_img/iphone.png); position: relative; width: 580px; height: 600px; margin-right: 40px; margin-bottom: 50px; float: left; 
+}
+.container2 a {
+    position: absolute; color: #0084ff; top: 30%; left: 40%; font-size: 16px;
+}
+.container2 a:hover {
+    font-weight: bold; border-bottom: 1px solid #0084ff;
+}
+.container3 {
+    background: url(../suv3_main_img/%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%B3%B4%EB%B3%B4%ED%98%B8.png); position: relative; width: 580px; height: 600px; float: left; margin-bottom: 50px; 
+}
+.container3 a {
+    position: absolute; color: #0084ff; top: 65%; left: 40%; font-size: 16px;
+}
+.container3 a:hover {
+    font-weight: bold; border-bottom: 1px solid #0084ff;
+}
+.content h2 {
+    text-align: center; font-size: 50px; padding-bottom: 50px;
+}
+.container4 {
+    background: url(../suv3_main_img/%EC%97%B0%EB%A7%90.png); position: relative; height: 500px; margin-bottom: 50px;
+}
+.container4 a {
+    position: absolute; color: #0084ff; font-size: 16px; top: 70%; left: 20%;
+}
+.container4 a:hover {
+    font-weight: bold; border-bottom: 1px solid #0084ff;
+}
+.container5 {
+    position: relative; background: url(../suv3_main_img/music.png);width: 580px; height: 600px; margin-bottom: 50px; margin-right: 40px; float: left; 
+}
+.container5 a:nth-child(1) {
+    position: absolute; color: #0084ff; font-size: 16px; top: 30%; left: 28%;
+}
+.container5 a:nth-child(2) {
+    position: absolute; color: #0084ff; font-size: 16px; top: 30%; left: 55%;
+}
+.container5 a:hover {
+    font-weight: bold; border-bottom: 1px solid #0084ff;
+}
+.container6 {
+    position: relative; background: url(../suv3_main_img/arcade.png); width: 580px; height: 600px; float: left; margin-bottom: 50px;
+}
+.container6 a:nth-child(1) {
+    position: absolute; color: #ffffff; top: 33%; left: 28%; 
+}
+.container6 a:nth-child(2) {
+    position: absolute; color: #ffffff; top: 33%; left: 54%;
+}
+.container6 a:hover {
+    font-weight: bold; border-bottom: 1px solid #ffffff;
+}
+#footer {
+    background: #ebebeb; width: 100%; margin: 0 auto; float: left; 
+}
+.fot_text {
+     max-width: 1200px; _margin-left: 30%; margin: 0 auto;
+}
+.fot1 img {
+    width: 20px; margin-right: 10px; margin-top: 5px;
+}
+.fot1 a:hover {
+    color: #000000;
+}
+.fot1 p {
+    color: #424141; font-size: 15px; line-height: 35px; margin-top: 30px;
+}
+.fot2 div {
+    float: left; padding: 20px 100px 50px 0;
+}
+.fot2 h1 {
+    color: #000000; font-size: 14px; margin-bottom: 10px; margin-top: 30px;
+}
+.fot2 li {
+    color: #535252; font-size: 12px; line-height: 35px;
+}
+.fot2 li a {
+    color: #535252;
+}
+.fot2 li a:hover {
+    border-bottom: 1px solid #535252;
+}
+/*
+.fot2 li:hover {
+    border-bottom: 1px solid #d2d1d2;
+}
+*/
+.fot3 {
+    clear: both; 
+}
+.fot3 p {
+    color: #626060; font-size: 11px; line-height: 35px;
+}
+.fot3 p:nth-child(2) {
+    margin-bottom: 30px;
+}
+.fot3 span {
+    color: #0084ff;
+}
+.fot3 span:hover {
+    border-bottom: 1px solid #0084ff;
+}
+.fot1 {
+    border-bottom: 0.05px solid #d2d1d2
+}
+.fot3 p:nth-child(1) {
+    border-bottom: 0.05px solid #d2d1d2;
+}

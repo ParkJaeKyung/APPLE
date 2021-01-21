@@ -1,0 +1,306 @@
+@charset "utf-8";
+#wrap {
+    width: 100%; margin: 0 auto;
+}
+header {
+    width: 100%;
+}
+header #header_top {
+    background: #343333;
+    height: 55px;
+}
+#header_top .top_menu {
+    max-width: 1200px; margin: 0 auto; 
+}
+.top_menu img {
+    width: 30px; padding-top: 5px; float: left; 
+}
+/*
+.top_menu img:hover {
+    color: #ffffff; transition: 0.5s;
+}
+*/
+.top_menu ul {
+    float: right; line-height: 55px; width: 100%;
+}
+.top_menu li {
+    float: left; text-align: right; width: 12%;
+}
+.top_menu li a {
+    color: #bbbbbb; 
+}
+.top_menu li a:hover {
+    color: #ffffff; transition: all 0.5s;
+}
+header div:nth-child(2) {
+    background: #f8f7f7; height: 40px; 
+}
+header .top_menu2 {
+    width: 100%; margin: 0 auto; line-height: 40px; text-align: center; font-size: 12px;
+}
+.top_menu2 .top_menu2-1 {
+    max-width: 1200px; margin: 0 auto;
+}
+.top_menu2 .top_menu2-1 p {
+    font-size: 16px;
+}
+header span {
+    color: #0084ff;
+}
+header span:hover {
+    border-bottom: 1px solid #0084ff;
+}
+
+#nav1 {
+    
+    background: url(../main_img/backgroud_2.png)center; width: 100%; height: 1000px; _background-size: cover; 
+}
+#nav1 h2 {
+    position: absolute; left: 50%; top: 20%;  color: #dadada; z-index: 1; font-size: 100px;
+    transform: translate(-50%); font-weight: 500;
+}
+
+#nav2 {
+    position: relative;
+    _background: url(../main_img/apple_event_background.png)top center ; width: 100%; height: 900px;  background-size: cover; max-width: 1200px; margin: 0 auto;
+}
+
+#nav2_slide {width: 100%; height: 900px; _position: absolute; top: 190px;}
+#nav2_slide {
+
+    animation: myani 25s infinite;
+    background-size: cover;
+}
+@keyframes myani {
+/*
+    0% {background: 
+ url(../main_img/apple_event_background.png) center;}
+    10% {background: url(../main_img/apple_event_background.png) center;}
+    40% {background: url(../main_img/apple_ready.set.code%202.png);}
+    60% {background: url(../main_img/apple_event%202020.png) center;}
+    80% {background: url(../main_img/ios%2014.png);}
+    100% {background: url(../main_img/apple_event_background.png)center;}
+}
+*/
+    
+    0% {
+        background: url(../main_img/apple_event_background.png)center;
+    }
+    25% {
+        background: url(../main_img/apple_ready.set.code%202.png)top center;
+    }
+    50% {
+        background: url(../main_img/apple_event%202020.png)center;
+    }
+    75% {
+        background: url(../main_img/ios%2014.png)top center;
+    }
+    100% {
+        background: url(../main_img/apple_event_background.png)center;
+    }
+}
+
+#nav2 > p {
+    animation: txt 25s infinite;
+}
+@keyframes txt {
+    0% {opacity: 1;}
+    25% {opacity: 0;}
+    50% {opacity: 0;}
+    75% {opacity: 0;}
+    100% {opacity: 1;}
+}
+    
+/*
+    
+
+#nav2_slide #nav2 {width: 1200px; margin: 0 auto;}
+*/
+/*
+#nav2 img {
+    width: 100%; background-size: cover; position: relative; 
+}
+*/
+/*
+#nav2 p {
+    position: absolute; left:50%; color: white; font-size: 50px; top: 160%; transform: translate(-50%); text-align: center
+}
+*/
+#nav2 p {
+    
+}
+#nav2 p:nth-child(1) {
+    position: absolute; color: #ffffff; font-size: 150px; top: 48%; _left: 18%;
+}
+#nav2 p:nth-child(2) {
+    position: absolute; color: #fff; font-size: 100px; top: 50%; left: 75%;
+}
+#nav3 {
+    position: relative;
+    background: #020002; _background: url(../img/iphone_main.png)center; width: 100%; height: 900px; _background-size: cover;
+    margin: 0 auto;
+}
+#nav3_background {
+    max-width: 1920px; margin: 0 auto; 
+}
+#nav3 p {
+    position: absolute; left: 50%; color: white; text-align: center; transform: translate(-50%); padding-top: 10px; z-index: 10;
+}
+#nav3 p:nth-child(1) {
+    position: absolute; top: 8%; font-size: 70px
+}
+#nav3 p:nth-child(2) {
+    position: absolute; font-size: 30px; top: 20%;
+}
+#nav3 p:nth-child(3) {
+    position: absolute; color: #a1a1a1; font-size: 18px; top: 27%; 
+}
+#nav3 ul {
+    position: absolute; font-size: 30px; color: #0084ff; text-align: center; top: 36%; left: 45%; z-index: 10;
+}
+#nav3 li {
+    float: left; 
+}
+#nav3 li:nth-child(1) {
+    width: 100px; height: 40px; border-radius: 35px; line-height: 25px; text-align: center; background: #0084ff; margin-right: 40px;
+}
+#nav3 li:nth-child(1):hover {
+    background: #298cea;
+}
+#nav3 li:nth-child(1) a {
+    color: #ffffff; font-size: 17px;
+}
+#nav3 li:nth-child(1) a:hover {
+    font-weight: bold; border-bottom: 1px solid #0084ff; 
+}
+#nav3 li:nth-child(2) {
+    height: 40px; line-height: 30px;
+}
+#nav3 li:nth-child(2) a {
+    color: #0084ff; font-size: 18px; 
+}
+#nav3 li:nth-child(2) a:hover {
+    font-weight: bold; border-bottom: 1px solid #0084ff;
+}
+#nav4 {
+    position: relative;
+    background: url(../img/macbook%20pro_main.png)center; width: 100%; height: 900px; _background-size: cover; 
+}
+#nav4 p {
+    position: absolute; left: 50%; color: #fff; _color: #686873; text-align: center; transform: translate(-50%);
+}
+#nav4 p:nth-child(1) {
+    position: absolute; font-size: 50px; top: 8%;
+}
+#nav4 p:nth-child(2) {
+    position: absolute; font-size: 70px; color: white; top: 16%;
+}
+#nav4 p:nth-child(3) {
+    position: absolute; color: #a1a1a1; font-size: 18px; top: 30%
+}
+#nav4 ul {
+    position: absolute; font-size: 30px; color: #0084ff; text-align: center; top: 38%; left: 45%;
+}
+#nav4 li {
+    float: left; 
+}
+#nav4 li:nth-child(1) {
+    width: 100px; height: 40px; border-radius: 35px; line-height: 25px; text-align: center; background: #0084ff; margin-right: 40px;
+}
+#nav4 li:nth-child(1):hover {
+    background: #298cea;
+}
+#nav4 li:nth-child(1) a {
+    color: #ffffff; font-size: 17px;
+}
+#nav4 li:nth-child(1) a:hover {
+    font-weight: bold; border-bottom: 1px solid #0084ff; 
+}
+#nav4 li:nth-child(2) {
+    height: 40px; line-height: 30px;
+}
+#nav4 li:nth-child(2) a {
+    color: #0084ff; font-size: 18px; 
+}
+#nav4 li:nth-child(2) a:hover {
+    font-weight: bold; border-bottom: 1px solid #0084ff;
+}
+#nav5 {
+    position: relative; background: url(../img/watch_main.png)top center; width: 100%; height: 100vh; background-size: cover; margin: 0 auto;
+}
+#nav5 .txt {
+    max-width: 1200px; margin: 0 auto; text-align: center; padding-top: 500px;
+}
+#nav5 p:nth-child(1) {
+    _position: absolute; color: #fff; font-size: 30px; top: 42%; left: 46%; margin-bottom: 10px;
+}
+#nav5 p:nth-child(2) {
+    _position: absolute; color: #fff; font-size: 60px; top: 48%; left: 38%; margin-bottom: 25px;
+}
+#nav5 p:nth-child(3) {
+    _position: absolute; color: #edf3ff; text-align: center; font-size: 18px; top: 70%; left: 36%; margin-bottom: 30px;
+}
+#nav5 a {
+    font-size: 18px; color: #0084ff; _position: absolute; top: 88%; left: 46%;
+}
+#nav5 a:hover {
+    font-weight: bold; border-bottom: 1px solid #0084ff;
+}
+#nav6 {
+    background: url(../main_img/background_fot.png) center; width: 100%; z-index: 10; position: relative; height: 300vh; background-size: cover;
+}
+#nav6 img {
+    opacity: 0.5; width: 50%; height: ; float: left; transition: 1s;
+}
+#nav6 img:hover {
+    opacity: 1;  
+}
+
+#footer {
+    background: #333132; width: 100%; margin: 0 auto;
+}
+.fot_text {
+     max-width: 1200px; _margin-left: 20%; margin: 0 auto;
+}
+.fot1 {
+    border-bottom: 0.05px solid #d2d1d2
+}
+.fot1 p {
+    color: #d2d1d2; font-size: 12px; line-height: 35px;
+}
+.fot1 span {
+    color: white; 
+}
+.fot1 span:hover {
+    border-bottom: 1px solid #ffffff;
+}
+.fot2 div {
+    float: left; padding: 20px 100px 50px 0;
+}
+.fot2 h1 {
+    color: white; font-size: 14px; line-height: 35px;
+}
+.fot2 li {
+    color: #d2d1d2; font-size: 12px; line-height: 35px;
+}
+.fot2 li a {
+    color: #d2d1d2;
+}
+.fot2 li a:hover {
+    border-bottom: 1px solid #d2d1d2;
+}
+.fot3 {
+    clear: both; 
+}
+.fot3 p:nth-child(1) {
+    border-bottom: 0.05px solid #d2d1d2;
+}
+.fot3 p {
+    color: #d2d1d2; font-size: 11px; line-height: 35px;
+}
+.fot3 span {
+    color: #0084ff;
+}
+.fot3 span:hover {
+    border-bottom: 1px solid #0084ff;
+}
